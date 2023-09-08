@@ -11,7 +11,7 @@ class PepParsePipeline:
         self.statuses = defaultdict(int)
 
     def process_item(self, item, spider):
-        status = item['status']
+        status = item.get('status', 'Unknown')
         self.statuses[status] += 1
         return item
 
