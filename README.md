@@ -36,11 +36,6 @@ scrapy crawl pep
 - pep_<дата_создания>T<время_содания>.csv
 - status_summary_<дата_создания>_<время_содания>.csv
 
-## Авторство
-
-Code - Ахмед Шуаипов
-
-
 
 [Python-url]: https://www.python.org/
 [Python-badge]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
